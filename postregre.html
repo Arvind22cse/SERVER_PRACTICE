@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/insert" method="post">
+        Name:
+        <input type="text" name="name">
+        Email:
+        <input type="email" name="email">
+        <button type="submit">insert</button>
+    </form>
+    <form action="/update" method="post">
+        Name:
+        <input type="text" name="nname">
+        Email:
+        <input type="email" name="nemail">
+        <button type="submit">update</button> 
+    </form>
+    <form action="/del"  method="post">
+        del:
+        <input type="text" name="namedel">
+        <button type="submit">del</button> 
+    </form>
+    <a href="/view" method="get">Read</a>
+</body>
+</html>
